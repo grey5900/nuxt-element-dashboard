@@ -3,7 +3,8 @@ require('dotenv').config()
 const env = process.env
 const isProd = env.MODE == 'prod'
 const mockServer =
-  'https://easy-mock.com/mock/5c1b3895fe5907404e654045/femessage-mock'
+  'https://easy-mock.com/mock/5c9eddbd8aaa6f3254a88329/femessage-mock'
+  // 'https://easy-mock.com/mock/5c1b3895fe5907404e654045/femessage-mock'
 
 // 不能以斜杠结尾
 let apiServer = process.env.API_SERVER
